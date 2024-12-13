@@ -1,0 +1,59 @@
+/* Home.module.css */
+
+.container {
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.searchInput {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.genreButton {
+  padding: 0.5rem 1rem;
+  background-color: #005bb5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-left: 250px;
+}
+.clearSearchButton {
+  padding: 0.5rem 1rem;
+  background-color: #005bb5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.booksList, .recentViewsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bookItem, .recentViewItem {
+  margin-bottom: 0.5rem;
+}
+
+.bookLink, .recentViewLink {
+  text-decoration: none;
+  color: #2969cf;
+  font-weight: bold;
+}
+
+.bookLink:hover, .recentViewLink:hover {
+  text-decoration: underline;
+}
